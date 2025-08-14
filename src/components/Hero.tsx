@@ -49,7 +49,7 @@ const Hero = () => {
 
           {/* Video preview placeholder */}
           <div className="max-w-4xl mx-auto animate-slide-up">
-            <div className="video-container group cursor-pointer">
+            <div className="video-container group cursor-pointer" onClick={() => window.scrollTo({ top: document.getElementById('videos')?.offsetTop || 0, behavior: 'smooth' })}>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
               <img 
                 src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg" 
@@ -57,13 +57,18 @@ const Hero = () => {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center z-20">
-                <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <div className="w-20 h-20 bg-red-600/90 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
                   <PlayIcon className="w-10 h-10 text-white ml-1" />
                 </div>
               </div>
+              <div className="absolute bottom-4 right-4 z-20">
+                <span className="bg-black/60 text-white px-3 py-1 rounded-full text-sm">
+                  Featured Videos Below
+                </span>
+              </div>
             </div>
             <p className="text-white/60 mt-4 text-sm">
-              Click to replace with your YouTube video URL
+              Click to explore our video collection
             </p>
           </div>
         </div>
