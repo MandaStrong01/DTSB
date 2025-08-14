@@ -15,7 +15,7 @@ This isn't just a film—it's a movement to transform humanity through education
 
 #CodedDocumentary #StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedMovie
 
-Watch the CODED DOCUMENTARY now: [URL]`,
+Watch the CODED DOCUMENTARY now!`,
       hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedMovie #DocumentaryFilm #SocialJustice"
     },
     {
@@ -122,14 +122,14 @@ Drop a 💙 if you're ready to be part of the solution
       hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingTok #DigitalEmpathy #OnlineSafety #MentalHealthTok #CodedMovie"
     },
     {
-      platform: "Professional Press Release",
+      platform: "Press Release",
       content: `FOR IMMEDIATE RELEASE
 
 GROUNDBREAKING CODED DOCUMENTARY "MOVIE JULY 26 - LIP-SYNCED PRECISION" EXPOSES GLOBAL CYBERBULLYING CRISIS
 
 Revolutionary Educational Platform Launches to Transform Humanity Through Digital Empathy Training
 
-[City, Date] - A powerful new CODED DOCUMENTARY titled "MOVIE JULY 26 - Lip-synced Precision" has launched globally, exposing the devastating reality of cyberbullying and doxxing that affects over 1 billion people worldwide. This isn't just a film—it's an innovative educational movement designed to transform how humanity interacts in digital spaces.
+A powerful new CODED DOCUMENTARY titled "MOVIE JULY 26 - Lip-synced Precision" has launched globally, exposing the devastating reality of cyberbullying and doxxing that affects over 1 billion people worldwide. This isn't just a film—it's an innovative educational movement designed to transform how humanity interacts in digital spaces.
 
 This CODED MOVIE represents a breakthrough in documentary filmmaking, using innovative storytelling techniques to deliver critical social education.
 
@@ -146,16 +146,10 @@ The CODED DOCUMENTARY goes beyond traditional awareness campaigns by teaching es
 - Cultural sensitivity in online communication
 - Professional boundary setting for remote work environments
 
-"This CODED DOCUMENTARY represents a paradigm shift in how we address cyberbullying," said [Spokesperson]. "We're not just documenting the problem—we're providing the educational tools needed to solve it through human connection and empathy."
+"This CODED DOCUMENTARY represents a paradigm shift in how we address cyberbullying. We're not just documenting the problem—we're providing the educational tools needed to solve it through human connection and empathy."
 
 GLOBAL IMPACT:
 The platform has already reached 2.5 million people across 150+ countries, with 95% of participants reporting improved digital empathy skills after engaging with the CODED MOVIE content.
-
-AVAILABILITY:
-The CODED DOCUMENTARY and educational resources are available at [Website URL], with packages ranging from individual access to institutional licensing for schools and corporations.
-
-For media inquiries, interviews, or screening requests, contact:
-[Contact Information]
 
 ###
 
@@ -178,7 +172,6 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
   return (
     <section id="social-media-kit" className="py-20 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-4">
             <ShareIcon className="w-10 h-10 text-purple-400 mr-3" />
@@ -196,7 +189,6 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
           </p>
         </div>
 
-        {/* Social Media Posts */}
         <div className="space-y-8">
           {socialPosts.map((post, index) => (
             <div key={index} className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8">
@@ -208,7 +200,7 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
                     {post.platform === 'LinkedIn' && '💼'}
                     {post.platform === 'Facebook' && '👥'}
                     {post.platform === 'TikTok' && '🎵'}
-                    {post.platform === 'Professional Press Release' && '📰'}
+                    {post.platform === 'Press Release' && '📰'}
                   </span>
                   {post.platform}
                 </h3>
@@ -243,7 +235,6 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
           ))}
         </div>
 
-        {/* Call to Action */}
         <div className="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl p-8 md:p-12 text-center">
           <h3 className="text-3xl font-bold mb-6">Ready to Transform Humanity?</h3>
           <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
