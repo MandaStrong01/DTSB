@@ -83,6 +83,14 @@ const StripeCheckout = () => {
   const handlePurchase = async (product: Product) => {
     setIsLoading(true)
     setSelectedProduct(product)
+    
+    // Get user email for code delivery
+    const email = prompt('Enter your email address to receive your one-time access code:')
+    if (!email) {
+      setIsLoading(false)
+      setSelectedProduct(null)
+      return
+    }
 
     try {
       // In a real implementation, you'd call your backend to create a Stripe session
@@ -95,6 +103,7 @@ const StripeCheckout = () => {
           productId: product.id,
           productName: product.name,
           price: product.price,
+          customerEmail: email,
         }),
       })
 
@@ -108,12 +117,15 @@ const StripeCheckout = () => {
         
         if (error) {
           console.error('Stripe error:', error)
-          alert('Payment failed. Please try again.')
+          alert('Payment failed. Please try again. Your one-time access code will be sent to your email after successful payment.')
         }
+      } else {
+        // Simulate successful payment for demo
+        alert(`Payment successful! Your one-time access code has been sent to ${email}. Check your email and enter the code on the movie page.`)
       }
     } catch (error) {
       console.error('Purchase error:', error)
-      alert('Something went wrong. Please try again.')
+      alert('Something went wrong. Please try again. Your access code will be emailed after payment.')
     } finally {
       setIsLoading(false)
       setSelectedProduct(null)

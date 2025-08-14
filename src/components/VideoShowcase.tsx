@@ -9,8 +9,20 @@ const VideoShowcase = () => {
   const [selectedVideo, setSelectedVideo] = useState(videoData[0])
 
   const handleVideoPlay = (video: any) => {
-    setSelectedVideo(video)
-    setIsPlayerOpen(true)
+    // Check if user has access code
+    const accessCode = prompt('Enter your one-time access code (received via email after $5 payment):')
+    if (accessCode) {
+      // Validate code (in real implementation, this would be server-side)
+      if (accessCode.length >= 6) {
+        setSelectedVideo(video)
+        setIsPlayerOpen(true)
+        alert('Access granted! This code can only be used once.')
+      } else {
+        alert('Invalid access code. Please check your email for the correct code.')
+      }
+    } else {
+      alert('Access code required. Pay $5 to get your one-time access code via email.')
+    }
   }
 
   const handleShare = async (video: any) => {

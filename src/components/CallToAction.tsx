@@ -79,15 +79,13 @@ const CallToAction = () => {
             </button>
             <button 
               onClick={() => {
-                const videosSection = document.getElementById('videos')
-                if (videosSection) {
-                  videosSection.scrollIntoView({ behavior: 'smooth' })
-                }
+                // Redirect to payment page for $5 access
+                window.location.href = '#stripe-store'
               }}
               className="bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:bg-white/20 hover:border-white/50 flex items-center space-x-2 text-lg"
             >
               <AcademicCapIcon className="w-6 h-6" />
-              <span>Start Learning</span>
+              <span>Access Required - $5</span>
             </button>
           </div>
 
