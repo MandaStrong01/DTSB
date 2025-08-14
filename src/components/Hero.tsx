@@ -49,7 +49,12 @@ const Hero = () => {
 
           {/* Video preview placeholder */}
           <div className="max-w-4xl mx-auto animate-slide-up">
-            <div className="video-container group cursor-pointer" onClick={() => window.scrollTo({ top: document.getElementById('videos')?.offsetTop || 0, behavior: 'smooth' })}>
+            <div className="video-container group cursor-pointer" onClick={() => {
+              const videosSection = document.getElementById('videos')
+              if (videosSection) {
+                videosSection.scrollIntoView({ behavior: 'smooth' })
+              }
+            }}>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
               <img 
                 src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg" 
