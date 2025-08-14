@@ -2,10 +2,11 @@ import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import VideoShowcase from './components/VideoShowcase'
-import Features from './components/Features'
+import Mission from './components/Mission'
+import DoxxingStory from './components/DoxxingStory'
 import Stats from './components/Stats'
-import Testimonials from './components/Testimonials'
-import CTA from './components/CTA'
+import Store from './components/Store'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
       <Header />
       <Hero />
       <VideoShowcase />
-      <Features />
+      <Mission />
+      <DoxxingStory />
       <Stats />
-      <Testimonials />
-      <CTA />
+      <Store />
+      <Contact />
       <Footer />
     </div>
   )

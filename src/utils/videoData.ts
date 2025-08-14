@@ -1,52 +1,56 @@
-// Video data with local video files
+// Video data for cyberbullying awareness documentary
 export const videoData = [
   {
     id: 1,
-    title: "MOVIE JULY 26 - Lip-synced Precision",
-    description: "Experience the art of perfect lip-sync timing and precision in this captivating video showcase. Professional cinematography meets creative storytelling.",
-    videoSrc: "/MOVIE JULY 26 _Lip-synced_precision.mp4", // Your actual video file
-    poster: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg",
-    duration: "3:45",
-    views: "12.5K",
-    likes: "1.2K",
-    category: "Creative",
-    featured: true
+    title: "MOVIE JULY 26 - Lip-synced Precision: The Doxxing Story",
+    description: "A powerful documentary exposing the devastating reality of cyberbullying and doxxing. This film reveals the human cost of digital harassment and the urgent need for global action against online violence.",
+    videoSrc: "/MOVIE JULY 26 _Lip-synced_precision.mp4",
+    poster: "/public/IMG_0988.jpeg",
+    duration: "45:30",
+    views: "125K",
+    likes: "12.8K",
+    category: "Documentary",
+    featured: true,
+    impact: "Life-changing stories of survivors"
   },
   {
     id: 2,
-    title: "Professional Video Production Showcase",
-    description: "High-quality video production showcasing professional techniques, lighting, and post-production excellence.",
-    videoSrc: "/placeholder-video-2.mp4", // Replace with your video file
-    poster: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg",
-    duration: "5:20",
-    views: "8.7K",
-    likes: "892",
-    category: "Professional",
-    featured: true
+    title: "Survivor Stories: Breaking the Silence",
+    description: "Hear directly from cyberbullying survivors as they share their experiences and the long-lasting impact of digital harassment. These brave individuals are speaking out to prevent others from suffering the same fate.",
+    videoSrc: "/survivor-stories.mp4", // Placeholder for your second video
+    poster: "/public/IMG_0989.webp",
+    duration: "28:15",
+    views: "87K",
+    likes: "9.2K",
+    category: "Testimonials",
+    featured: true,
+    impact: "Real voices, real experiences"
   },
   {
     id: 3,
-    title: "Creative Visual Experience",
-    description: "Immerse yourself in creative visuals and innovative video production techniques that push creative boundaries.",
-    videoSrc: "/placeholder-video-3.mp4", // Replace with your video file
-    poster: "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg",
-    duration: "4:15",
-    views: "15.3K",
-    likes: "1.8K",
-    category: "Creative",
-    featured: false
+    title: "The Global Impact: International Crisis",
+    description: "Cyberbullying knows no borders. This segment explores how doxxing and online harassment affect communities worldwide, from teenagers in schools to professionals in the workplace.",
+    videoSrc: "/global-impact.mp4", // Placeholder for your third video
+    poster: "/public/IMG_0981.png",
+    duration: "35:45",
+    views: "156K",
+    likes: "18.3K",
+    category: "Global Crisis",
+    featured: false,
+    impact: "Worldwide perspective on digital violence"
   },
   {
     id: 4,
-    title: "Behind the Scenes Content",
-    description: "Get an exclusive look behind the scenes of professional video production and creative processes.",
-    videoSrc: "/placeholder-video-4.mp4", // Replace with your video file
-    poster: "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg",
-    duration: "6:30",
-    views: "9.2K",
-    likes: "1.1K",
-    category: "Behind the Scenes",
-    featured: false
+    title: "Taking Action: How You Can Help",
+    description: "Learn practical steps you can take to combat cyberbullying in your community. From reporting mechanisms to supporting survivors, discover how everyone can be part of the solution.",
+    videoSrc: "/taking-action.mp4", // Placeholder for your fourth video
+    poster: "/public/20241202_180430.jpeg",
+    duration: "22:30",
+    views: "92K",
+    likes: "11.5K",
+    category: "Action Guide",
+    featured: false,
+    impact: "Empowering viewers to make a difference"
   }
 ]
 

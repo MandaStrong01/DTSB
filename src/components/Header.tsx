@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Bars3Icon, XMarkIcon, PlayIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,9 +15,10 @@ const Header = () => {
 
   const navigation = [
     { name: 'Home', href: '#home' },
-    { name: 'Videos', href: '#videos' },
-    { name: 'Features', href: '#features' },
-    { name: 'About', href: '#about' },
+    { name: 'Watch', href: '#videos' },
+    { name: 'Mission', href: '#mission' },
+    { name: 'The Crisis', href: '#doxxing-story' },
+    { name: 'Store', href: '#store' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -29,14 +30,21 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-primary-600 to-accent-500 rounded-xl flex items-center justify-center">
-              <PlayIcon className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 bg-gradient-to-r from-red-600 to-red-800 rounded-xl flex items-center justify-center">
+              <ExclamationTriangleIcon className="w-6 h-6 text-white" />
             </div>
-            <span className={`text-xl font-bold ${
-              isScrolled ? 'text-gray-900' : 'text-white'
-            }`}>
-              VideoHub
-            </span>
+            <div className="flex flex-col">
+              <span className={`text-lg font-bold leading-tight ${
+                isScrolled ? 'text-gray-900' : 'text-white'
+              }`}>
+                Stop The Doxxing
+              </span>
+              <span className={`text-xs font-medium leading-tight ${
+                isScrolled ? 'text-red-600' : 'text-red-300'
+              }`}>
+                Stop The Hate
+              </span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -45,15 +53,15 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className={`font-medium transition-colors hover:text-primary-600 ${
+                className={`font-medium transition-colors hover:text-red-600 ${
                   isScrolled ? 'text-gray-700' : 'text-white/90'
                 }`}
               >
                 {item.name}
               </a>
             ))}
-            <button className="btn-primary">
-              Get Started
+            <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+              Watch Now
             </button>
           </div>
 
@@ -81,15 +89,15 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+                className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-red-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
               </a>
             ))}
             <div className="px-4 pt-2">
-              <button className="btn-primary w-full">
-                Get Started
+              <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full w-full transition-all duration-300">
+                Watch Now
               </button>
             </div>
           </div>
