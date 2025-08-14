@@ -7,22 +7,22 @@ const SocialMediaKit = () => {
   const socialPosts = [
     {
       platform: "Twitter/X",
-      content: `🚨 BREAKING: New coded documentary exposes the GLOBAL cyberbullying crisis
+      content: `🚨 BREAKING: New CODED DOCUMENTARY exposes the GLOBAL cyberbullying crisis
 
-"MOVIE JULY 26 - Lip-synced Precision" reveals the devastating reality of doxxing & digital harassment affecting MILLIONS worldwide.
+"MOVIE JULY 26 - Lip-synced Precision" - This CODED MOVIE reveals the devastating reality of doxxing & digital harassment affecting MILLIONS worldwide.
 
 This isn't just a film—it's a movement to transform humanity through education.
 
-#StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedDocumentary
+#CodedDocumentary #StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedMovie
 
-Watch now: [URL]`,
-      hashtags: "#StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedDocumentary #DocumentaryFilm #SocialJustice"
+Watch the CODED DOCUMENTARY now: [URL]`,
+      hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingCrisis #DigitalEmpathy #HumanityOnline #GlobalMovement #CodedMovie #DocumentaryFilm #SocialJustice"
     },
     {
       platform: "Instagram",
       content: `🎬 CODED DOCUMENTARY ALERT 🚨
 
-"MOVIE JULY 26 - Lip-synced Precision" is more than a film—it's a global wake-up call.
+"MOVIE JULY 26 - Lip-synced Precision" is more than a film—it's a CODED MOVIE that's a global wake-up call.
 
 ✨ WHAT THIS CODED DOCUMENTARY REVEALS:
 • The hidden reality of cyberbullying worldwide
@@ -35,16 +35,16 @@ Watch now: [URL]`,
 • 1 BILLION+ people affected worldwide
 • 195 countries facing this crisis
 
-This coded documentary is transforming how humanity connects online. Every view spreads hope. Every share saves lives.
+This CODED DOCUMENTARY is transforming how humanity connects online. Every view spreads hope. Every share saves lives.
 
-#StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CodedDocumentary #DocumentaryFilm #GlobalCrisis #HumanityFirst #SocialSkills #OnlineSafety #MentalHealthMatters #TransformHumanity`,
-      hashtags: "#StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CodedDocumentary #DocumentaryFilm #GlobalCrisis #HumanityFirst"
+#CodedDocumentary #StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CodedMovie #DocumentaryFilm #GlobalCrisis #HumanityFirst #SocialSkills #OnlineSafety #MentalHealthMatters #TransformHumanity`,
+      hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CodedMovie #DocumentaryFilm #GlobalCrisis #HumanityFirst"
     },
     {
       platform: "LinkedIn",
-      content: `🎯 PROFESSIONAL ALERT: New Coded Documentary Exposes Global Cyberbullying Crisis
+      content: `🎯 PROFESSIONAL ALERT: New CODED DOCUMENTARY Exposes Global Cyberbullying Crisis
 
-"MOVIE JULY 26 - Lip-synced Precision" is a groundbreaking coded documentary that every business leader, educator, and HR professional needs to see.
+"MOVIE JULY 26 - Lip-synced Precision" is a groundbreaking CODED MOVIE that every business leader, educator, and HR professional needs to see.
 
 📊 THE BUSINESS IMPACT:
 • 73% of adults witness online harassment in professional settings
@@ -53,7 +53,7 @@ This coded documentary is transforming how humanity connects online. Every view 
 • Remote work has amplified these challenges globally
 
 🎓 EDUCATIONAL INNOVATION:
-This coded documentary doesn't just expose the problem—it teaches essential social skills for the digital age:
+This CODED DOCUMENTARY doesn't just expose the problem—it teaches essential social skills for the digital age:
 ✅ Digital empathy training
 ✅ Conflict de-escalation techniques  
 ✅ Cultural sensitivity in global teams
@@ -61,14 +61,14 @@ This coded documentary doesn't just expose the problem—it teaches essential so
 
 🌍 GLOBAL REACH: Already impacting 150+ countries with innovative education that transforms workplace culture.
 
-As leaders, we have a responsibility to create safer digital environments. This coded documentary provides the tools and awareness needed to build more humane professional communities.
+As leaders, we have a responsibility to create safer digital environments. This CODED DOCUMENTARY provides the tools and awareness needed to build more humane professional communities.
 
-#Leadership #WorkplaceCulture #DigitalEmpathy #ProfessionalDevelopment #GlobalBusiness #HRLeadership #CorporateResponsibility #WorkplaceSafety #RemoteWork #BusinessEthics #CodedDocumentary`,
-      hashtags: "#Leadership #WorkplaceCulture #DigitalEmpathy #ProfessionalDevelopment #GlobalBusiness #CodedDocumentary"
+#Leadership #WorkplaceCulture #DigitalEmpathy #ProfessionalDevelopment #GlobalBusiness #HRLeadership #CorporateResponsibility #WorkplaceSafety #RemoteWork #BusinessEthics #CodedDocumentary #CodedMovie`,
+      hashtags: "#Leadership #WorkplaceCulture #DigitalEmpathy #ProfessionalDevelopment #GlobalBusiness #CodedDocumentary #CodedMovie"
     },
     {
       platform: "Facebook",
-      content: `🚨 URGENT: This Coded Documentary Will Change How You See the Internet Forever
+      content: `🚨 URGENT: This CODED DOCUMENTARY Will Change How You See the Internet Forever
 
 "MOVIE JULY 26 - Lip-synced Precision" exposes the shocking reality of cyberbullying that's destroying lives worldwide—including people in YOUR community.
 
@@ -79,7 +79,7 @@ As leaders, we have a responsibility to create safer digital environments. This 
 • The harassment follows them everywhere—24/7
 
 ✨ BUT THERE'S HOPE:
-This isn't just another documentary. It's a coded educational movement teaching:
+This isn't just another documentary. It's a CODED MOVIE educational movement teaching:
 🎓 Digital empathy and social skills
 🌍 How to connect with humanity online
 💪 Ways to support survivors and create change
@@ -87,16 +87,16 @@ This isn't just another documentary. It's a coded educational movement teaching:
 
 🌟 REAL IMPACT: Already reaching 2.5M+ people across 150+ countries, teaching the social skills needed to heal our online world.
 
-Every share of this post helps spread awareness. Every view of this coded documentary saves lives. Every person who learns these skills transforms their entire digital community.
+Every share of this post helps spread awareness. Every view of this CODED DOCUMENTARY saves lives. Every person who learns these skills transforms their entire digital community.
 
 SHARE THIS POST to help us reach more people who need this message of hope and healing.
 
-#StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CommunitySupport #OnlineSafety #MentalHealthAwareness #CodedDocumentary #DocumentaryFilm #SocialChange #HumanityOnline #GlobalMovement`,
-      hashtags: "#StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CommunitySupport #OnlineSafety #CodedDocumentary"
+#CodedDocumentary #StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CommunitySupport #OnlineSafety #MentalHealthAwareness #CodedMovie #DocumentaryFilm #SocialChange #HumanityOnline #GlobalMovement`,
+      hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #CommunitySupport #OnlineSafety #CodedMovie"
     },
     {
       platform: "TikTok",
-      content: `🎬 This coded documentary is going VIRAL for all the right reasons
+      content: `🎬 This CODED DOCUMENTARY is going VIRAL for all the right reasons
 
 "MOVIE JULY 26 - Lip-synced Precision" exposes what Big Tech doesn't want you to know about cyberbullying 👀
 
@@ -106,7 +106,7 @@ SHARE THIS POST to help us reach more people who need this message of hope and h
 • 1 BILLION people affected globally
 • Your data isn't as private as you think
 
-✨ PLOT TWIST: This coded documentary teaches you how to fight back with KINDNESS and social skills that actually work
+✨ PLOT TWIST: This CODED MOVIE teaches you how to fight back with KINDNESS and social skills that actually work
 
 💪 WHAT YOU'LL LEARN:
 • Digital empathy hacks
@@ -118,8 +118,8 @@ This isn't just entertainment—it's education that's transforming humanity one 
 
 Drop a 💙 if you're ready to be part of the solution
 
-#StopTheDoxxing #CyberbullyingTok #DigitalEmpathy #OnlineSafety #MentalHealthTok #SocialSkills #CodedDocumentary #DocumentaryTok #GenZChange #HumanityFirst #GlobalMovement #TechTruth #OnlineKindness`,
-      hashtags: "#StopTheDoxxing #CyberbullyingTok #DigitalEmpathy #OnlineSafety #MentalHealthTok #CodedDocumentary"
+#CodedDocumentary #StopTheDoxxing #CyberbullyingTok #DigitalEmpathy #OnlineSafety #MentalHealthTok #SocialSkills #CodedMovie #DocumentaryTok #GenZChange #HumanityFirst #GlobalMovement #TechTruth #OnlineKindness`,
+      hashtags: "#CodedDocumentary #StopTheDoxxing #CyberbullyingTok #DigitalEmpathy #OnlineSafety #MentalHealthTok #CodedMovie"
     },
     {
       platform: "Professional Press Release",
@@ -129,7 +129,9 @@ GROUNDBREAKING CODED DOCUMENTARY "MOVIE JULY 26 - LIP-SYNCED PRECISION" EXPOSES 
 
 Revolutionary Educational Platform Launches to Transform Humanity Through Digital Empathy Training
 
-[City, Date] - A powerful new coded documentary titled "MOVIE JULY 26 - Lip-synced Precision" has launched globally, exposing the devastating reality of cyberbullying and doxxing that affects over 1 billion people worldwide. This isn't just a film—it's an innovative educational movement designed to transform how humanity interacts in digital spaces.
+[City, Date] - A powerful new CODED DOCUMENTARY titled "MOVIE JULY 26 - Lip-synced Precision" has launched globally, exposing the devastating reality of cyberbullying and doxxing that affects over 1 billion people worldwide. This isn't just a film—it's an innovative educational movement designed to transform how humanity interacts in digital spaces.
+
+This CODED MOVIE represents a breakthrough in documentary filmmaking, using innovative storytelling techniques to deliver critical social education.
 
 KEY STATISTICS REVEALED:
 • 37% of young people experience cyberbullying globally
@@ -138,19 +140,19 @@ KEY STATISTICS REVEALED:
 • Cyberbullying costs the global economy billions annually
 
 INNOVATIVE EDUCATIONAL APPROACH:
-The coded documentary goes beyond traditional awareness campaigns by teaching essential social skills for the digital age:
+The CODED DOCUMENTARY goes beyond traditional awareness campaigns by teaching essential social skills for the digital age:
 - Digital empathy training modules
 - Conflict de-escalation techniques
 - Cultural sensitivity in online communication
 - Professional boundary setting for remote work environments
 
-"This coded documentary represents a paradigm shift in how we address cyberbullying," said [Spokesperson]. "We're not just documenting the problem—we're providing the educational tools needed to solve it through human connection and empathy."
+"This CODED DOCUMENTARY represents a paradigm shift in how we address cyberbullying," said [Spokesperson]. "We're not just documenting the problem—we're providing the educational tools needed to solve it through human connection and empathy."
 
 GLOBAL IMPACT:
-The platform has already reached 2.5 million people across 150+ countries, with 95% of participants reporting improved digital empathy skills after engaging with the content.
+The platform has already reached 2.5 million people across 150+ countries, with 95% of participants reporting improved digital empathy skills after engaging with the CODED MOVIE content.
 
 AVAILABILITY:
-The coded documentary and educational resources are available at [Website URL], with packages ranging from individual access to institutional licensing for schools and corporations.
+The CODED DOCUMENTARY and educational resources are available at [Website URL], with packages ranging from individual access to institutional licensing for schools and corporations.
 
 For media inquiries, interviews, or screening requests, contact:
 [Contact Information]
@@ -158,8 +160,8 @@ For media inquiries, interviews, or screening requests, contact:
 ###
 
 About Stop The Doxxing:
-Stop The Doxxing is a global educational movement dedicated to ending cyberbullying through innovative education, digital empathy training, and human connection. The organization's coded documentary "MOVIE JULY 26 - Lip-synced Precision" is transforming how humanity interacts online.`,
-      hashtags: "#PressRelease #CodedDocumentary #CyberbullyingAwareness #DigitalEmpathy #GlobalEducation"
+Stop The Doxxing is a global educational movement dedicated to ending cyberbullying through innovative education, digital empathy training, and human connection. The organization's CODED DOCUMENTARY "MOVIE JULY 26 - Lip-synced Precision" is transforming how humanity interacts online.`,
+      hashtags: "#PressRelease #CodedDocumentary #CyberbullyingAwareness #DigitalEmpathy #GlobalEducation #CodedMovie"
     }
   ]
 
@@ -189,7 +191,7 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Professional social media posts ready to copy and share. Help us spread this coded documentary 
+            Professional social media posts ready to copy and share. Help us spread this CODED DOCUMENTARY 
             "MOVIE JULY 26 - Lip-synced Precision" globally and transform humanity through education and digital empathy.
           </p>
         </div>
@@ -246,7 +248,7 @@ Stop The Doxxing is a global educational movement dedicated to ending cyberbully
           <h3 className="text-3xl font-bold mb-6">Ready to Transform Humanity?</h3>
           <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
             Copy these professional posts and share them across your social media platforms. 
-            Every share helps spread the coded documentary "MOVIE JULY 26 - Lip-synced Precision" and saves lives worldwide.
+            Every share helps spread the CODED DOCUMENTARY "MOVIE JULY 26 - Lip-synced Precision" and saves lives worldwide.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="bg-white text-purple-600 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
