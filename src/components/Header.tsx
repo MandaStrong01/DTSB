@@ -16,10 +16,12 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '#home' },
     { name: 'Watch', href: '#videos' },
+    { name: 'Education', href: '#education' },
     { name: 'Survivors', href: '#survivor-stories' },
     { name: 'Global Crisis', href: '#global-crisis' },
     { name: 'Mission', href: '#mission' },
     { name: 'Store', href: '#stripe-store' },
+    { name: 'Share', href: '#social-media-kit' },
     { name: 'Contact', href: '#contact' },
   ]
 
