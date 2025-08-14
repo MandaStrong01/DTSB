@@ -4,22 +4,22 @@ import { PlayIcon } from '@heroicons/react/24/outline'
 const Footer = () => {
   const footerLinks = {
     product: [
-      { name: 'Features', href: '#features' },
+      { name: 'Education', href: '#education' },
       { name: 'Videos', href: '#videos' },
-      { name: 'Pricing', href: '#pricing' },
-      { name: 'API', href: '#api' }
+      { name: 'Store', href: '#stripe-store' },
+      { name: 'Mission', href: '#mission' }
     ],
     company: [
-      { name: 'About', href: '#about' },
-      { name: 'Blog', href: '#blog' },
-      { name: 'Careers', href: '#careers' },
+      { name: 'About', href: '#mission' },
+      { name: 'Global Crisis', href: '#global-crisis' },
+      { name: 'Survivors', href: '#survivor-stories' },
       { name: 'Contact', href: '#contact' }
     ],
     support: [
-      { name: 'Help Center', href: '#help' },
-      { name: 'Documentation', href: '#docs' },
-      { name: 'Community', href: '#community' },
-      { name: 'Status', href: '#status' }
+      { name: 'Crisis Help', href: '#contact' },
+      { name: 'Report Bullying', href: '#contact' },
+      { name: 'Educational Resources', href: '#education' },
+      { name: 'Global Support', href: 'https://cyberbullying.sim.com/google.com' }
     ],
     legal: [
       { name: 'Privacy Policy', href: '#privacy' },
@@ -44,14 +44,14 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-r from-primary-600 to-accent-500 rounded-xl flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-red-600 to-red-800 rounded-xl flex items-center justify-center">
                 <PlayIcon className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">VideoHub</span>
+              <span className="text-xl font-bold">Stop The Doxxing</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Experience premium video content with our professional showcase platform. 
-              Discover engaging videos and immersive storytelling.
+              Innovating education about digital empathy and teaching essential social skills 
+              for the internet age. Sharing transformative messages of humanity globally.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (

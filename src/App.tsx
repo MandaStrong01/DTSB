@@ -9,6 +9,7 @@ import DoxxingStory from './components/DoxxingStory'
 import Stats from './components/Stats'
 import StripeCheckout from './components/StripeCheckout'
 import Contact from './components/Contact'
+import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <DoxxingStory />
       <Stats />
       <StripeCheckout />
+      <CallToAction />
       <Contact />
       <Footer />
     </div>
