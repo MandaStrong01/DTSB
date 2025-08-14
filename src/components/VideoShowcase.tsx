@@ -41,14 +41,14 @@ const VideoShowcase = () => {
             <span className="text-red-300 font-medium">URGENT DOCUMENTARY</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            The Truth About
-            <span className="block text-red-400 font-['Playfair_Display']">
-              Digital Violence
+            Educational Stories
+            <span className="block text-blue-400 font-['Playfair_Display']">
+              That Transform Lives
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            These powerful films expose the devastating reality of cyberbullying and doxxing. 
-            Watch, learn, and join the global movement to end digital harassment forever.
+            These powerful educational films teach essential social skills and digital empathy. 
+            Watch, learn, and share these transformative messages that are healing our global community.
           </p>
         </div>
 

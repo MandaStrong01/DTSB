@@ -16,9 +16,10 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '#home' },
     { name: 'Watch', href: '#videos' },
+    { name: 'Survivors', href: '#survivor-stories' },
+    { name: 'Global Crisis', href: '#global-crisis' },
     { name: 'Mission', href: '#mission' },
-    { name: 'The Crisis', href: '#doxxing-story' },
-    { name: 'Store', href: '#store' },
+    { name: 'Store', href: '#stripe-store' },
     { name: 'Contact', href: '#contact' },
   ]
 

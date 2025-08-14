@@ -25,26 +25,26 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Stop The Doxxing
+            Innovate. Educate.
             <span className="block text-red-400 font-['Playfair_Display']">
-              Stop The Hate
+              Transform Humanity.
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Cyberbullying and doxxing are destroying lives worldwide. This isn't just online harassment—
-            it's a global epidemic that demands immediate action. Watch our powerful documentary 
-            and join the movement to end digital violence.
+            Through innovative education and human connection, we're transforming how the world 
+            understands digital empathy. This powerful documentary teaches essential social skills 
+            and spreads hope internationally—because every human deserves dignity online.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center space-x-2 text-lg">
               <PlayIcon className="w-6 h-6" />
-              <span>Watch The Film</span>
+              <span>Start Learning</span>
             </button>
             <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:bg-white/20 hover:border-white/50 flex items-center space-x-2 text-lg">
               <GlobeAltIcon className="w-6 h-6" />
-              <span>Join The Movement</span>
+              <span>Share Globally</span>
             </button>
           </div>
 

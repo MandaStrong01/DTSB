@@ -8,17 +8,18 @@ const Mission = () => {
         {/* Mission Statement */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Our <span className="text-red-600">Mission</span>
+            Our <span className="text-red-600">Educational Mission</span>
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-2xl text-gray-700 mb-8 leading-relaxed">
-              To expose the devastating reality of cyberbullying and doxxing, amplify survivor voices, 
-              and create a global movement that transforms how we interact in digital spaces.
+              To innovate education about digital empathy, teach essential social skills for the internet age, 
+              and share transformative messages of humanity that heal our global digital community.
             </p>
             <div className="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 p-8 rounded-lg">
               <p className="text-lg text-gray-800 italic">
-                "Every person deserves to feel safe online. Every voice matters. Every story can change a life. 
-                Together, we're not just documenting a crisis—we're building the solution."
+                "Education is the most powerful weapon we can use to change the world. Through innovative 
+                storytelling and human connection, we're teaching the social skills that will transform 
+                how humanity interacts in digital spaces—one heart, one mind, one share at a time."
               </p>
             </div>
           </div>
@@ -32,7 +33,7 @@ const Mission = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Global Impact</h3>
             <p className="text-gray-600">
-              Cyberbullying affects millions worldwide. Our mission transcends borders to create international awareness and action.
+              Our educational content reaches across continents, teaching digital empathy and social skills to create a more humane internet for all humanity.
             </p>
           </div>
 
@@ -42,7 +43,7 @@ const Mission = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Protection</h3>
             <p className="text-gray-600">
-              We advocate for stronger protections, better reporting systems, and real consequences for digital harassment.
+              Through innovative education, we teach people how to protect themselves and others, building stronger, more empathetic digital communities.
             </p>
           </div>
 
@@ -50,9 +51,9 @@ const Mission = () => {
             <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <HeartIcon className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Survivor Support</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Human Connection</h3>
             <p className="text-gray-600">
-              Every survivor's story matters. We provide a platform for healing, sharing, and empowering others.
+              We create platforms for authentic human connection, where stories of resilience inspire others and teach valuable social skills for digital interaction.
             </p>
           </div>
 
@@ -60,9 +61,9 @@ const Mission = () => {
             <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <UsersIcon className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Community</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Educational Community</h3>
             <p className="text-gray-600">
-              Building a supportive community where survivors, advocates, and allies unite to create lasting change.
+              Building a global learning community where educators, students, families, and advocates share knowledge and social skills for a better digital world.
             </p>
           </div>
         </div>
