@@ -58,8 +58,8 @@ This guide provides step-by-step instructions for uploading your "Stop The Doxxi
 ### **STEP 3: Set Up On Demand Store**
 1. **Store Information:**
    ```
-   Title: Stop The Doxxing - MOVIE JULY 26
-   Subtitle: Lip-synced Precision: A Coded Documentary
+   Title: Amanda's Humanitarian Campaign - MOVIE JULY 26
+   Subtitle: Stop The Doxxing: Building a Kinder World
    Genre: Documentary, Social Issues
    Rating: Not Rated (or appropriate rating)
    Release Year: 2024
@@ -81,31 +81,31 @@ This guide provides step-by-step instructions for uploading your "Stop The Doxxi
 
 ### **STEP 4: Add Compelling Description**
 ```
-🚨 URGENT DOCUMENTARY: The Global Cyberbullying Crisis Exposed
+🚨 AMANDA'S HUMANITARIAN MISSION: Building a Kinder, More Inclusive World
 
-"MOVIE JULY 26 - Lip-synced Precision" is a groundbreaking coded documentary that exposes the devastating reality of cyberbullying and doxxing affecting over 1 billion people worldwide.
+"MOVIE JULY 26 - Lip-synced Precision" is Amanda's powerful documentary exposing cyberbullying while funding Veterans' Mental Health Services and social skills education in schools.
 
 🎬 WHAT YOU'LL DISCOVER:
-• The hidden epidemic of digital harassment
-• Real survivor stories of hope and healing
-• How doxxing destroys lives and families
-• The urgent need for global action
-• Innovative solutions through digital empathy education
+• Amanda's mission to build a kinder, more inclusive world
+• How every dollar supports Veterans' Mental Health Services
+• Social skills education transforming schools globally
+• Real stories of hope, healing, and human connection
+• Innovative humanitarian solutions through education
 
-📊 SHOCKING STATISTICS REVEALED:
-• 37% of young people experience cyberbullying
-• 73% of adults witness online harassment
-• 195 countries affected by this digital violence
-• Billions in economic impact from cyber abuse
+💝 HUMANITARIAN IMPACT:
+• 100% of proceeds go to Veterans' Mental Health programs
+• Supporting social skills education in schools worldwide
+• Building compassionate communities through transparency
+• Creating a legacy of hope for peaceful world
 
-🌍 GLOBAL IMPACT:
-This isn't just a documentary—it's an educational movement teaching essential social skills for the digital age. Every view spreads awareness, every share saves lives.
+🌍 AMANDA'S VISION:
+This isn't just a documentary—it's Amanda's Education Humanitarian Campaign. With honesty, transparency, and unwavering principles, she stands up for Veterans, Kids, and those in need.
 
 ⚠️ CONTENT WARNING: Contains discussions of cyberbullying, harassment, and mental health impacts. Viewer discretion advised.
 
-🎓 EDUCATIONAL USE: Perfect for schools, organizations, and community screenings. Contact us for educational licensing.
+🎓 EDUCATIONAL MISSION: Perfect for schools teaching social skills and organizations supporting Veterans' mental health.
 
-#StopTheDoxxing #CyberbullyingAwareness #DigitalEmpathy #DocumentaryFilm #SocialJustice #OnlineSafety #MentalHealthAwareness #GlobalCrisis #HumanRights #EducationalContent
+#AmandaHumanitarianCampaign #VeteransMentalHealth #SocialSkillsEducation #StopTheDoxxing #CompassionateWorld #EducationalDocumentary #HumanityAndCollaboration #PeacefulWorld #KinderWorld #TransparencyMatters
 ```
 
 ### **STEP 5: Upload Visual Assets**
