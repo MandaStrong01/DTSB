@@ -37,7 +37,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoSrc, title, poster, isOp
             poster={poster}
             controls
             className="w-full h-full"
-            onEnded={() => setIsPlayerOpen(false)}
+            onEnded={onClose}
           >
             Your browser does not support the video tag.
           </video>

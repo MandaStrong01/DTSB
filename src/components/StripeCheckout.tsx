@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
-import { loadStripe } from '@stripe/stripe-js'
 import { CreditCardIcon, ShieldCheckIcon, LockClosedIcon } from '@heroicons/react/24/outline'
-
-// Initialize Stripe (you'll need to add your publishable key)
-const stripePromise = loadStripe('pk_test_your_stripe_publishable_key_here')
 
 interface Product {
   id: string
