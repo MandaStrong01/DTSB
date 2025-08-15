@@ -22,7 +22,6 @@ const Header = () => {
     { name: 'Mission', href: '#mission' },
     { name: 'Store', href: '#stripe-store' },
     { name: 'Share', href: '#social-media-kit' },
-    { name: 'Share', href: '#social-media-kit' },
     { name: 'Contact', href: '#contact' },
   ]
 

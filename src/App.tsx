@@ -12,7 +12,6 @@ import Contact from './components/Contact'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 import SocialMediaKit from './components/SocialMediaKit'
-import SocialMediaKit from './components/SocialMediaKit'
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
       <Stats />
       <StripeCheckout />
       <CallToAction />
-      <SocialMediaKit />
       <SocialMediaKit />
       <Contact />
       <Footer />
