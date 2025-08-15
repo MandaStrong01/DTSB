@@ -13,15 +13,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     
-    // Simple form validation
-    if (!formData.name || !formData.email || !formData.subject || !formData.message) {
-      alert('Please fill in all required fields.')
-      return
-    }
-    
-    // Simulate form submission without actually sending emails
-    console.log('Contact form data:', formData)
-    alert('Thank you for your message! We have received your inquiry and will respond as soon as possible. For immediate assistance, please use the crisis resources provided on this page.')
+    // Demo form - no actual submission or emails
+    alert('This is a demo contact form. No emails are sent. For real inquiries, please visit our social media channels or Vimeo page.')
     setFormData({ name: '', email: '', subject: '', message: '', type: 'general' })
   }
 

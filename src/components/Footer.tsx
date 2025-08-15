@@ -136,19 +136,14 @@ const Footer = () => {
         {/* Newsletter Signup */}
         <div className="border-t border-gray-800 pt-8 mb-8">
           <div className="max-w-md mx-auto text-center">
-            <h3 className="text-lg font-semibold mb-2">Stay Updated</h3>
+            <h3 className="text-lg font-semibold mb-2">Follow Our Movement</h3>
             <p className="text-gray-400 mb-4">
-              Get notified about new videos and platform updates.
+              Connect with us on social media for updates and support.
             </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:border-primary-500"
-              />
-              <button className="bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-r-lg transition-colors duration-300">
-                Subscribe
-              </button>
+            <div className="flex justify-center space-x-4">
+              <a href="https://vimeo.com/ondemand/stoptheDoxxing" target="_blank" rel="noopener noreferrer" className="bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-lg transition-colors duration-300 text-white">
+                Watch on Vimeo
+              </a>
             </div>
           </div>
         </div>

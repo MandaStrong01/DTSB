@@ -81,32 +81,11 @@ const StripeCheckout = () => {
   ]
 
   const handlePurchase = async (product: Product) => {
-    setIsLoading(true)
-    setSelectedProduct(product)
-    
-    // Get user email for code delivery
-    const email = prompt('Enter your email address to receive your one-time access code:')
-    if (!email) {
-      setIsLoading(false)
-      setSelectedProduct(null)
-      return
-    }
-
-    try {
-      // Simulate payment process for demo
-      // In production, integrate with your preferred payment processor
-      setTimeout(() => {
-        alert(`Payment successful! Your one-time access code has been sent to ${email}. Check your email and enter the code on the movie page.`)
-        setIsLoading(false)
-        setSelectedProduct(null)
-      }, 2000)
-    } catch (error) {
-      console.error('Purchase error:', error)
-      alert('Something went wrong. Please try again. Your access code will be emailed after payment.')
-      setIsLoading(false)
-      setSelectedProduct(null)
-    } finally {
-      // Cleanup handled in try/catch blocks above
+    // Redirect to Vimeo for actual purchase - no emails involved
+    const vimeoUrl = 'https://vimeo.com/ondemand/stoptheDoxxing'
+    const confirmRedirect = confirm(`You will be redirected to Vimeo to purchase "${product.name}". Continue?`)
+    if (confirmRedirect) {
+      window.open(vimeoUrl, '_blank')
     }
   }
 
