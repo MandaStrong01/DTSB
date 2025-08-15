@@ -17,7 +17,7 @@ export const videoData = [
     id: 2,
     title: "Survivor Stories: Breaking the Silence",
     description: "Hear directly from cyberbullying survivors as they share their experiences and the long-lasting impact of digital harassment. These brave individuals are speaking out to prevent others from suffering the same fate.",
-    videoSrc: "/survivor-stories.mp4", // Placeholder for your second video
+    videoSrc: "/public/Amanda Strong's MandaStrong1 - A Global Anthem of Hope.html",
     poster: "/public/IMG_0989.webp",
     duration: "28:15",
     views: "87K",
@@ -30,7 +30,7 @@ export const videoData = [
     id: 3,
     title: "The Global Impact: International Crisis",
     description: "Cyberbullying knows no borders. This segment explores how doxxing and online harassment affect communities worldwide, from teenagers in schools to professionals in the workplace.",
-    videoSrc: "/global-impact.mp4", // Placeholder for your third video
+    videoSrc: "/DF836715-9B8C-414A-A527-65A38A3BE463.JPG",
     poster: "/public/IMG_0981.png",
     duration: "35:45",
     views: "156K",
@@ -43,7 +43,7 @@ export const videoData = [
     id: 4,
     title: "Taking Action: How You Can Help",
     description: "Learn practical steps you can take to combat cyberbullying in your community. From reporting mechanisms to supporting survivors, discover how everyone can be part of the solution.",
-    videoSrc: "/taking-action.mp4", // Placeholder for your fourth video
+    videoSrc: "/public/StopThe Doxing Stop The Hate_20240831-1651.pdf",
     poster: "/public/20241202_180430.jpeg",
     duration: "22:30",
     views: "92K",

@@ -9,8 +9,16 @@ const VideoShowcase = () => {
   const [selectedVideo, setSelectedVideo] = useState(videoData[0])
 
   const handleVideoPlay = (video: any) => {
-    // Direct link to Vimeo screening
-    window.open('https://vimeo.com/ondemand/stoptheDoxxing', '_blank')
+    // Play the actual video file
+    if (video.videoSrc.endsWith('.mp4')) {
+      setSelectedVideo(video)
+      setIsPlayerOpen(true)
+    } else if (video.videoSrc.endsWith('.html')) {
+      window.open(video.videoSrc, '_blank')
+    } else {
+      // For other file types, try to open them
+      window.open(video.videoSrc, '_blank')
+    }
   }
 
   const handleShare = async (video: any) => {
