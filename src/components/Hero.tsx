@@ -38,9 +38,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center space-x-2 text-lg">
+            <button 
+              onClick={() => window.open('https://vimeo.com/ondemand/stoptheDoxxing', '_blank')}
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center space-x-2 text-lg"
+            >
               <PlayIcon className="w-6 h-6" />
-              <span>Start Learning</span>
+              <span>Watch on Vimeo</span>
             </button>
             <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:bg-white/20 hover:border-white/50 flex items-center space-x-2 text-lg">
               <GlobeAltIcon className="w-6 h-6" />

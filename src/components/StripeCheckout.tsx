@@ -77,12 +77,8 @@ const StripeCheckout = () => {
   ]
 
   const handlePurchase = async (product: Product) => {
-    // Redirect to Vimeo for actual purchase
-    const vimeoUrl = 'https://vimeo.com/ondemand/stoptheDoxxing'
-    const confirmRedirect = confirm(`You will be redirected to Vimeo to purchase "${product.name}". Continue?`)
-    if (confirmRedirect) {
-      window.open(vimeoUrl, '_blank')
-    }
+    // Direct link to Vimeo screening
+    window.open('https://vimeo.com/ondemand/stoptheDoxxing', '_blank')
   }
 
   return (

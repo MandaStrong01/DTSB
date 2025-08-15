@@ -64,7 +64,9 @@ const Header = () => {
               </a>
             ))}
             <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
-              Watch Now
+              <a href="https://vimeo.com/ondemand/stoptheDoxxing" target="_blank" rel="noopener noreferrer" className="text-white no-underline">
+                Watch on Vimeo
+              </a>
             </button>
           </div>
 

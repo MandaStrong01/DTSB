@@ -141,8 +141,8 @@ const Footer = () => {
               Connect with us on social media for updates and support.
             </p>
             <div className="flex justify-center space-x-4">
-              <a href="https://vimeo.com/ondemand/stoptheDoxxing" target="_blank" rel="noopener noreferrer" className="bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-lg transition-colors duration-300 text-white">
-                Watch on Vimeo
+              <a href="https://vimeo.com/ondemand/stoptheDoxxing" target="_blank" rel="noopener noreferrer" className="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-full transition-colors duration-300 text-white font-bold">
+                🎬 Watch Documentary on Vimeo
               </a>
             </div>
           </div>

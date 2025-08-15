@@ -9,11 +9,8 @@ const VideoShowcase = () => {
   const [selectedVideo, setSelectedVideo] = useState(videoData[0])
 
   const handleVideoPlay = (video: any) => {
-    const vimeoUrl = 'https://vimeo.com/ondemand/stoptheDoxxing'
-    const confirmWatch = confirm('This documentary is available on Vimeo On Demand. You will be redirected to view and purchase options. Continue?')
-    if (confirmWatch) {
-      window.open(vimeoUrl, '_blank')
-    }
+    // Direct link to Vimeo screening
+    window.open('https://vimeo.com/ondemand/stoptheDoxxing', '_blank')
   }
 
   const handleShare = async (video: any) => {
