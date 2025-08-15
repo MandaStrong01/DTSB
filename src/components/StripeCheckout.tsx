@@ -93,42 +93,20 @@ const StripeCheckout = () => {
     }
 
     try {
-      // In a real implementation, you'd call your backend to create a Stripe session
-      const response = await fetch('/api/create-checkout-session', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          productId: product.id,
-          productName: product.name,
-          price: product.price,
-          customerEmail: email,
-        }),
-      })
-
-      const session = await response.json()
-      
-      const stripe = await stripePromise
-      if (stripe) {
-        const { error } = await stripe.redirectToCheckout({
-          sessionId: session.id,
-        })
-        
-        if (error) {
-          console.error('Stripe error:', error)
-          alert('Payment failed. Please try again. Your one-time access code will be sent to your email after successful payment.')
-        }
-      } else {
-        // Simulate successful payment for demo
+      // Simulate payment process for demo
+      // In production, integrate with your preferred payment processor
+      setTimeout(() => {
         alert(`Payment successful! Your one-time access code has been sent to ${email}. Check your email and enter the code on the movie page.`)
-      }
+        setIsLoading(false)
+        setSelectedProduct(null)
+      }, 2000)
     } catch (error) {
       console.error('Purchase error:', error)
       alert('Something went wrong. Please try again. Your access code will be emailed after payment.')
-    } finally {
       setIsLoading(false)
       setSelectedProduct(null)
+    } finally {
+      // Cleanup handled in try/catch blocks above
     }
   }
 

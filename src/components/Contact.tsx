@@ -12,9 +12,16 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log('Form submitted:', formData)
-    alert('Thank you for your message. We will get back to you soon!')
+    
+    // Simple form validation
+    if (!formData.name || !formData.email || !formData.subject || !formData.message) {
+      alert('Please fill in all required fields.')
+      return
+    }
+    
+    // Simulate form submission without actually sending emails
+    console.log('Contact form data:', formData)
+    alert('Thank you for your message! We have received your inquiry and will respond as soon as possible. For immediate assistance, please use the crisis resources provided on this page.')
     setFormData({ name: '', email: '', subject: '', message: '', type: 'general' })
   }
 

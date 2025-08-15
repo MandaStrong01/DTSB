@@ -9,9 +9,8 @@ const VideoShowcase = () => {
   const [selectedVideo, setSelectedVideo] = useState(videoData[0])
 
   const handleVideoPlay = (video: any) => {
-    // Redirect to Vimeo for paid viewing
     const vimeoUrl = 'https://vimeo.com/ondemand/stoptheDoxxing'
-    const confirmWatch = confirm('This documentary is available for paid viewing on Vimeo. You will be redirected to complete your purchase and watch the full film. Continue?')
+    const confirmWatch = confirm('This documentary is available on Vimeo On Demand. You will be redirected to view and purchase options. Continue?')
     if (confirmWatch) {
       window.open(vimeoUrl, '_blank')
     }
